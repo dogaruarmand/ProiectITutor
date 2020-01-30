@@ -8,15 +8,18 @@
  	 <script src="javaScript.js"></script> 
   </head>
   <body>
-  	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYUF7fjwL2eUTE-r1srPFIo095J-m_J6CxNFhXfSCaQaBLh3MQWQ&s" width="210" height="70" alt="Canyon Logo" style="float: right; margin: 21px 0;">
-  	<br/>
-  	<ul>
-	  <li><a href="#outlet">Outlet categories</a></li>
-	  <li><a href="#gravel">Gravel Bike</a></li>
-	  <li><a href="#components">Bike Components</a></li>
-	  <li><a href="#myBike">My bike</a></li>
-	  <li><a href="#bonus">Bonus</a></li>
-	</ul>
+  	<!--menu-->
+  	<div style="position: fixed; top: 0; width: 100%;">
+	  	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYUF7fjwL2eUTE-r1srPFIo095J-m_J6CxNFhXfSCaQaBLh3MQWQ&s" width="210" height="70" alt="Canyon Logo" style="float: right; margin: 21px 0;">
+	  	<br/>
+	  	<ul>
+		  <li><a href="#outlet">Outlet categories</a></li>
+		  <li><a href="#gravel">Gravel Bike</a></li>
+		  <li><a href="#components">Bike Components</a></li>
+		  <li><a href="#myBike">My bike</a></li>
+		  <li><a href="#bonus">Bonus</a></li>
+		</ul>
+	</div>
   	<div style="margin-top: 130px; margin-left: 40px; width: 50%;">
   		<p style="color: grey; font-family: verdana; font-size: 10px; margin-bottom: 0;">
   			Canyon // Outlet
