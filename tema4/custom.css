@@ -1,0 +1,52 @@
+body{
+	line-height: 1.6;
+	letter-spacing: 2px;
+	background-image: url("https://st3.depositphotos.com/11085122/15945/i/1600/depositphotos_159458676-stock-photo-woman-with-the-mountain-bike.jpg");
+	background-repeat: no-repeat;  	
+  	background-attachment: fixed;
+}
+
+table{
+	margin: 50px 40px;	
+	border-spacing: 5px 45px;
+}
+tbody{
+	text-align: center;
+}
+caption{
+	font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+a img{
+	border: none;
+}
+h3{
+  margin-left: 40px;
+  text-decoration: underline;
+  font-style: italic;
+  margin-bottom: 0;
+  outline: 2px pink dotted; width: 168px;
+}

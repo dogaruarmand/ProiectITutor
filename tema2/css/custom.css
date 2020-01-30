@@ -1,0 +1,18 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #bbb;
+}
+
+p {
+  font-family: georgia, sans-serif;
+}
+
+h2 {
+  font-family: verdana, sans-serif;
+}
+
+h4 {
+  color: blue!important;
+}

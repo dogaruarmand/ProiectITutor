@@ -1,0 +1,32 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #FFE4C4;
+}
+
+h1{
+	margin-bottom: 0px; 
+	font-size: 40px;
+}
+
+img{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+i{
+	font-size: 12px;
+	color: #A9A9A9;
+}
+
+blockquote{
+	width: 60%;
+	color: #A9A9A9;
+	margin-left: auto;
+	margin-right: auto;
+	border: double;
+	border-color: #6495ED;
+	border-radius: 20px;
+
+}
