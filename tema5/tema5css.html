@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tema CSS</title>
+	<link rel="stylesheet" type="text/css" href="custom.css">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+	<script src="custom.js"></script>	
+</head>
+<body>
+	<!-- icons section -->
+	<div>
+		<h3>Icons</h3>
+		<p class="firstClass">
+			<span>
+				I like to ride my <i class="fas fa-biking"></i> to the <i class="fas fa-mountain"></i> with my <i class="fas fa-user-friends"></i>
+			</span>
+		</p>		
+	</div>
+	<hr/>
+	<!-- links sections -->
+	<div>
+		<h3>Links</h3>
+		<p id="piFrame"> Click on Tema 4, to see the last homework in an Iframe on this page.</p>
+		<a id="aiFrame" href="https://dogaruarmand.github.io/ProiectITutor/tema4/index.html" title="tema4" target="aFrame" onclick="changeFrameStatus()">Tema 4</a>
+		<br/>
+		<iframe id="frame" src="" name="aFrame" width="80%" height="300px"></iframe>
+	</div>
+	<hr/>
+	<!-- lists section -->
+	<div>
+		<h3>Lists</h3>
+		<span id="spanLists">
+			Lists can be of two types: sorted list and unsorted list.
+		</span>
+		<!-- sorted list -->
+		<ol id="descriptionList">
+			<li>Sorted list can be:</li>
+				<!-- division list -->
+				<div id="divSorted">
+					<span class="spanDivList">sorted by roman leters</span>
+					<ol class="List" type="I">
+						<li>element 1</li>	
+						<li>element 2</li>	
+						<li>element 3</li>	
+					</ol>
+					<span class="spanDivList">sorted by numbers</span>
+					<ol class="List" type="1">
+						<li>element 1</li>
+						<li>element 2</li>
+						<li>element 3</li>
+					</ol>
+					<span class="spanDivList">or sorted by lettters</span>
+					<ol class="List" type="a">
+						<li>element 1</li>
+						<li>element 2</li>
+						<li>element 3</li>
+					</ol>
+				</div>
+				<!-- end of division list -->
+		<!--unsorted list  -->
+			<li>Unsorted list</li>
+				<!-- division list -->
+				<div id="divUnsorted">
+					<span class="spanDivList">bullet type</span>
+					<ul class="bullet List">
+						<li>element</li>
+						<li>element</li>
+						<li>element</li>
+					</ul>
+					<span class="spanDivList">circle type</span>
+					<ul class="circle List">
+						<li>element</li>
+						<li>element</li>
+						<li>element</li>
+					</ul>
+					<span class="spanDivList">square type</span>
+					<ul class="square List">
+						<li>element</li>
+						<li>element</li>
+						<li>element</li>
+					</ul>
+				</div>
+				<!-- end of division list -->
+		</ol>		
+	</div>
+	<hr/>
+	<!-- tables -->
+	<div>
+		<h3>Tables</h3>
+		<table>
+			<thead>
+				<tr>
+				    <th>Column 1</th>
+				    <th>Column 2</th>
+				  	<th>Column 3</th>
+			  	</tr>
+			</thead>
+			<tbody>
+				<!-- row 1 -->
+				<tr>
+				    <td>row 1 column 1</td>
+				    <td>row 1 column 2</td>
+				    <td>row 1 column 2</td>
+			  	</tr>
+			  	<!-- row 2 -->
+				<tr>
+				    <td>row 2 column 1</td>
+				    <td>row 2 column 2</td>
+				    <td>row 2 column 3</td>
+				</tr>
+				<!-- row 3 -->
+			  	<tr>
+				    <td>row 3 column 1</td>
+				    <td>row 3 column 2</td>
+				    <td>row 3 column 3</td>
+			  	</tr>
+			  	<!-- row 4 -->
+			  	<tr>
+				    <td>row 4 column 1</td>
+				    <td>row 4 column 2</td>
+				    <td>row 4 column 3</td>
+			  	</tr>
+			</tbody>			  
+		</table>
+	</div>
+</body>
+</html>

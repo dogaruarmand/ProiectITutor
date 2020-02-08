@@ -33,8 +33,15 @@ h3{
 	 line-height: 24px;
 	 margin: 0 0 24px;
 	 text-align: justify;
-	 text-justify: inter-word;
-	 text-indent: 45px;
+	 text-justify: inter-word; 
+}
+p:first-child{
+	text-indent: 45px;
+}
+.firstClass > span > i{
+	font-size: 30px;
+	color: blue;
+	margin-left: 0;	
 }
 .secondClass{
 	color: #f2f2f2;
@@ -55,4 +62,89 @@ h3{
 	margin: 0 5px;
 	color: white;
 	padding: 10px;
+}
+#piFrame{
+	text-align: justify;
+	font-family: times new roman;
+	font-style: italic;
+	color: gray;
+	padding: 10px;
+}
+#aiFrame:link, visited{
+	color: white;
+	background-color: magenta;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: inline-block;
+	margin-bottom: 3px;
+	border-radius: 20px;
+}
+#aiFrame:hover, active{
+	background-color: red;
+}
+#frame{
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+	display: none;
+}
+#descriptionList{
+	background: transparent;
+  	padding: 5px;
+  	margin-left: 35px;  		
+}
+#spanLists{
+	color: #685206;
+	font-family: 'Georgia', sans-serif;
+	letter-spacing: 2px;
+}
+#divSorted{
+	padding-left: 20px;
+}
+.spanDivList{
+	text-decoration: underline;
+	background-color: yellow;	
+}
+.List{
+	color: white;
+}
+#descriptionList > li{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-style: italic;
+}
+#divUnsorted{
+	padding-left: 20px;
+}
+.bullet{	
+	list-style-type: disc;
+}
+.circle{	
+	list-style-type: circle;
+}
+.square{	
+	list-style-type: square;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  padding: 8px;  
+  border-bottom: 1px solid #ddd;
+}
+tbody{
+	color: white;
+	text-align: center;
+}
+tr:nth-child(even){
+	background-color: grey;
+}
+td:hover{
+	background-color: purple;
+}
+thead{
+	text-align: left;
+	background-color: blue;
 }
