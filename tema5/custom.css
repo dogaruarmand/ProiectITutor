@@ -55,13 +55,16 @@ p:first-child{
 	margin: 0 5px 24px;
 	font-family: 'Libre Baskerville', serif;
 }
-#footer{
+.footer{
 	text-align:center;
 	background-color: black;
 	width: 98%;
 	margin: 0 5px;
 	color: white;
 	padding: 10px;
+}
+p.footer > b > span{
+	color:red;
 }
 #piFrame{
 	text-align: justify;
