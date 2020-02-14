@@ -35,25 +35,13 @@ h3{
 	 text-align: justify;
 	 text-justify: inter-word; 
 }
-p:first-child{
-	text-indent: 45px;
-}
 .firstClass > span > i{
 	font-size: 30px;
 	color: blue;
 	margin-left: 0;	
 }
-.secondClass{
-	color: #f2f2f2;
-	background: #ff4a4a;
-	font-size: 75px;
-	line-height: 74px;
-	font-weight: 700;
-	margin: 0 5px 24px;
-	float: left;
-	padding: 10px;
-	margin: 0 5px 24px;
-	font-family: 'Libre Baskerville', serif;
+p.firstClass::first-line{
+	text-indent: 45px;
 }
 .footer{
 	text-align:center;

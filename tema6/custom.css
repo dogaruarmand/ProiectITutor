@@ -1,0 +1,60 @@
+#htmlbody{
+	background-color: #7FFFD4;
+}
+h2{
+	font-size: 4vw;
+	font-family: Brush Script MT, cursive;	
+	color: #ff0000;
+	border-style: inset;
+	width: 30vw;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: static;
+	background-color: #fbff00;
+}
+div.math > code{
+	font-size: 1.5vw;
+}
+div.math{
+	margin-left: 3vw;
+}
+div.math > p::first-line{
+	text-decoration: underline;
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+}
+div.math > p > span{
+	background-color: yellow;
+	text-transform: uppercase;
+	margin-left: 2vw;
+}
+hr{
+	border: 1px solid blue;
+}
+p{
+	letter-spacing: 3px;
+}
+div.dancila > p > q{
+	background-color: red;
+}
+div.dancila > p > q > var{
+	background-color: black;
+	color: white;
+}
+#horizontaldelimitation{
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+.footer{
+	text-align:center;
+	background-color: black;	
+	margin: 0 5px;
+	color: white;
+	padding: 10px;
+}
+p.footer > b > span{
+	color:red;
+}
