@@ -98,15 +98,17 @@ border: 3px solid #73AD21;
 }
 #absolute {
   position: absolute;
-  top: 200px;
+  top: 230px;
   right: 0;
-  width: 600px;
-  height: 220px;
+  width: 500px;
+  height: 120px;
   border: 3px solid blue;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 #absolute > p{
 	font-family: georgia;
-	color: grey;
+	color: grey;	
 }
 #absolute > h4{
 	margin-top: 0;
@@ -120,7 +122,15 @@ border: 3px solid #73AD21;
 }
 #fixed > p{
 	font-family: georgia;
-	color: grey;	
+	color: grey;
+	clear: left;
+}
+#fixed > p > img{
+	float: right;
+	width: 15%;
+}
+#fixed > img{
+	float: left;	
 }
 #sticky {
   position: -webkit-sticky;
@@ -139,11 +149,16 @@ border: 3px solid #73AD21;
 }
 #scrollposition > p{
 	font-family: georgia;
-	color: grey;	
+	color: grey;
+	padding: 10px;	
 }
 #mbike{
 	position: absolute;
   	left: 0px;
   	top: 0px;
   	z-index: -1;
+}
+/*tema6 javaScript css*/
+#bike{
+	width: 30%;
 }
