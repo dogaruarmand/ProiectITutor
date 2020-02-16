@@ -58,3 +58,92 @@ div.dancila > p > q > var{
 p.footer > b > span{
 	color:red;
 }
+/*css for tema 6 css*/
+#cssbody{
+	background-color: #e3f2fd;
+}
+#helloworld{
+	margin-left: 1.5vw;
+	font-family: times new roman;
+}
+#content{
+	text-indent: 2vw;
+	max-width: 60vw;
+  	margin: auto;
+  	padding: 5px;
+  	border: 3px solid #73AD21;
+}
+#content > p{
+	font-family: georgia;
+	color: green;
+}
+#static{
+position: static;
+border: 3px solid #73AD21;
+}
+#static > p{
+	font-family: georgia;
+	color: grey;
+}
+#relative{
+position: relative;
+width: 700px;
+height: 430px;
+left: 4vw;
+border: 3px solid #73AD21;
+}
+#relative > p{
+	font-family: georgia;
+	color: grey;	
+}
+#absolute {
+  position: absolute;
+  top: 200px;
+  right: 0;
+  width: 600px;
+  height: 220px;
+  border: 3px solid blue;
+}
+#absolute > p{
+	font-family: georgia;
+	color: grey;
+}
+#absolute > h4{
+	margin-top: 0;
+}
+#fixed{
+position: fixed;
+bottom: 0;
+right: 0;
+width: 70vw;
+border: 3px solid #73AD21;
+}
+#fixed > p{
+	font-family: georgia;
+	color: grey;	
+}
+#sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  background-color: #cae8ca;
+  border: 1px solid #4CAF50;
+}
+#sticky > p{
+	font-family: georgia;
+	color: grey;	
+}
+#scrollposition{
+	padding-bottom:2000px;
+}
+#scrollposition > p{
+	font-family: georgia;
+	color: grey;	
+}
+#mbike{
+	position: absolute;
+  	left: 0px;
+  	top: 0px;
+  	z-index: -1;
+}

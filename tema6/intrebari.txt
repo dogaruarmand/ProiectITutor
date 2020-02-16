@@ -1,0 +1,10 @@
+1. Pentru dimensionarea elementelor, este de prefereat sa se foloseasca unitatea de masura px sau vw ?
+	ex: html: <p id="content">text</p>
+		css: #content{
+				width: 600px;
+			} 
+			sau
+			#content{
+				width: 60vw;
+			}
+2. 
