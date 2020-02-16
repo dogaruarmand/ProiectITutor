@@ -8,7 +8,7 @@
 				width: 60vw;
 			}
 2. position: absloute trebuie utilizat intodeauna cu posiition:relative sau se va raporta la un alt element din pagina, vreau sa inteleg cum isi gaseste ancora la care se raporteaza pentru a se pozitiona absolut (care ar fi ordinea importantei, body, h, div, p, img....)
-3. in javascript manualul spune ca nu este recomandat sa folosim string, number sau boolean pe post de obiecte, desi ne arata cum sa crea obiecte de timp string de ex:
+3. In cursul javascript spune ca nu este recomandat sa folosim string, number sau boolean pe post de obiecte, desi ne arata cum sa cream obiecte de timp string de ex:
 	var name = new String("Armand");
 	este recomandat sa folosim obiecte de tip string ? daca da, cum le manevram ?
-	
+4. Cum adaug linie noua vizibila in html din php?
