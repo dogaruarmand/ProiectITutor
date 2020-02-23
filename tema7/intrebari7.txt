@@ -1,0 +1,26 @@
+Diferenta dintre GET si POST, este urmatoarea:
+	- cu metoda GET se trimit datele formularului in URL, in acest fel sunt vizibile de toti utilizatorii (nu se recomanda trimiterea datelor confidentiale, gen parole, date card... cu metoda GET. totodata prin metoda Get se pot marca datele din bara de navigatie, metoda GEt impune o llimita pentru "transportul" datelor de 2048 caractere)
+	- cu metoda POST se trimit datele formularului invizibilfata de utilizator, este recomandata aceasta metoda pentru a trimite spre prelucrare date importante user, parole, date card... Cu metoda POST nu se pot marca datele, deoarece acestea nu sunt vizibile. nu exista limita pentru "transportul datelor"
+
+Intrebari:
+HTML
+1. ce fac formvalidate si novalidate, inteleg ca valideaza elemente ale form-ului pt submit, dar le valideaza in functie de ce?
+CSS
+2. Pt exemplul:
+.center { 
+  height: 200px;
+  position: relative;
+  border: 3px solid green; 
+}
+
+.center p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+<div class="center">
+  <p>I am vertically and horizontally centered.</p>
+</div>
+inteleg ca este ovarianta pentru aliniera pe verticala a continutului din div, respectiv elementul p, vreau sa inteleg ce face "-ms-transform: translate(-50%, -50%);  transform: translate(-50%, -50%);" si de ce nu este suficient doar o singura data comanda transform, deasemenea de ce se folosesc valori negative?

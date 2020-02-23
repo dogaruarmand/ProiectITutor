@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tema 7 html</title>
+	<link rel="stylesheet" type="text/css" href="custom.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body id="form_body">
+	<fieldset class="fieldset">
+		<legend class="labels">Person info:</legend>
+		<form method="GET" action="form.php" id="form" oninput="age.value=parseInt(a.value)">
+			<label for="fname" class="labels">First Name:</label><br/>
+			<input type="text" name="fname" id="fname" size="15" class="elements_forms" required autofocus><br/>
+			<label for="lname" class="labels">Last  Name:</label><br/>
+			<input type="text" name="lname" id="lname" size="15" class="elements_forms" required><br/>		
+			<label for="hobbys" class="labels">Hobbyes:</label><br/>		
+			<select id="select" multiple name="hobbys">
+				<option value="Hikeing">Hikeing</option>
+				<option value="Bikeing">Bikeing</option>
+				<option value="Running">Running</option>
+				<option value="Swiming">Swiming</option>
+				<option value="Chess">Chess</option>
+			</select>
+			<span class="labels">(Hold down the Ctrl (windows) / Command (Mac) button to select multiple options.)</span><br/>
+			<label for="description" class="labels">Few words about you:</label><br/>
+			<textarea name="description" rows="3" cols="20" class="elements_forms"></textarea><br/>
+			<label for="status" class="labels">Staus:</label>
+			<input list="status" size="15"class="elements_forms" name="status">
+			<datalist id="status">
+				<option value="married">Married</option>
+				<option value="unmarried">Unmarried</option>
+				<option value="divorced">Divorced</option>				
+			</datalist><br/>
+			<label for="age" class="labels">Age:</label><br>			
+			<span class="labels">0</span>
+			<input type="range" id="a" name="a" value="10">
+			<span class="labels">100 = </span> 		
+			<output name="age" id="age" for="a" class="labels"></output><span class="labels">years</span><br/><br/>
+			<label for="gender" class="labels">Gender</label><br/>
+			<input type="radio" name="gender" id="male" value="male">
+			<label for="male" class="labels">Male</label><br/>
+			<input type="radio" name="gender" id="female" value="female">
+			<label for="female" class="labels">Female</label><br/>
+			<input type="radio" name="gender" id="other" value="other">
+			<label for="other" class="labels">Other</label><br/><br/>			
+			<input type="image" src="https://freepikpsd.com/wp-content/uploads/2019/10/download-submit-now-png-images-transparent-gallery-advertisement-submit-now-png-submit-now-png-470_130-1.png" alt="Submit" width="80" height="40">
+			<img src="https://musicamundischool.org/file/resetbutton.png" onclick="reset()" alt="reset_image" width="80" height="40" title="reset form" class="reset_img"/>
+			<input type="reset" id="reset_button">
+		</form>	
+	</fieldset>
+	<script src="custom.js"></script>
+</body>
+</html>
