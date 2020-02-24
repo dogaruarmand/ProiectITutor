@@ -23,4 +23,22 @@ CSS
 <div class="center">
   <p>I am vertically and horizontally centered.</p>
 </div>
-inteleg ca este ovarianta pentru aliniera pe verticala a continutului din div, respectiv elementul p, vreau sa inteleg ce face "-ms-transform: translate(-50%, -50%);  transform: translate(-50%, -50%);" si de ce nu este suficient doar o singura data comanda transform, deasemenea de ce se folosesc valori negative?
+inteleg ca este o varianta pentru aliniera pe verticala a continutului din div, respectiv elementul p, vreau sa inteleg ce face "-ms-transform: translate(-50%, -50%);  transform: translate(-50%, -50%);" si de ce nu este suficient doar o singura data comanda transform, deasemenea de ce se folosesc valori negative?
+3. in exemplul:
+.fieldset{
+	width: 50%;
+	padding: 20px;
+	border: solid 1px red;
+	margin: auto;
+}
+
+<fieldset class="fieldse">
+	<legend class="labels">Person info:</legend>
+	<form method="GET" action="form.php" id="form" oninput="age.value=parseInt(a.value)">
+		<label for="fname" class="labels">First Name:</label><br/>
+		<input type="text" name="fname" id="fname" size="15" class="elements_forms" required autofocus><br/>
+		....
+	</form>
+</fieldset>
+
+am icercat sa aliniez in centru fieldset-ul, implicit si form-ul, pana sa ii pun margin:auto; a functionat width, dupa margin nu mai functioneaza width, dar nici margin: auto; deasemenea am incercat cu display: block; margin-left: auto; margin-right: auto; si tot nu merge. un form,  pote fi aliniat ? 	

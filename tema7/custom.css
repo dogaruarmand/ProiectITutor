@@ -15,6 +15,9 @@
 	background-color: #6495ED;
 	color: white;
 }
+.elements_forms:focus{
+	background-color: yellow;
+}
 #reset_button{
 	display: none;
 }
@@ -29,8 +32,21 @@
 	width: 50%;
 	padding: 20px;
 	border: solid 1px red;
+	margin: auto;
 }
-img.reset_img:hover{
+img:hover{
 	box-shadow: 5px 5px 5px grey;
 	cursor: pointer;
+	opacity: 1;
+}
+.submit:hover{
+	box-shadow: 5px 5px 5px grey;
+	opacity: 1;
+}
+.submit, img {
+	opacity: 0.6;
+}
+::selection {
+  color: red;
+  background: yellow;
 }
