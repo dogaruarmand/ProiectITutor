@@ -50,3 +50,16 @@ img:hover{
   color: red;
   background: yellow;
 }
+.label{
+	font-style: italic;
+	font-weight: bold;
+}
+#popBob{
+	display: none;
+}
+#popMike{
+	display: none;
+}
+#popJhon{
+	display: none;
+}
