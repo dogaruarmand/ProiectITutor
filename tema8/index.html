@@ -7,27 +7,31 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body id="html-body">
-	<div id="video-content">
-		<h2>Video Content</h2>
-		<video id="canyon-video" width="520" controls>
-			<source src="The_Grand_Canyon.mp4" type="video/mp4">
-		</video> <br/><br/>
-		<button onclick="playPause()">Play/Pause</button> 
-  		<button onclick="makeBig()">Big</button>
-  		<button onclick="makeSmall()">Small</button>
-  		<button onclick="makeNormal()">Normal</button>	
+	<div id="page-container">
+		<div id="content-wrap">   		
+			<div id="video-content">
+				<h2 id="video-title">Video Content</h2>
+				<video id="canyon-video" width="520" controls>
+					<source src="The_Grand_Canyon.mp4" type="video/mp4">
+				</video><br/><br/>
+				<button onclick="playPause()">Play/Pause</button> 
+		  		<button onclick="makeBig()">Big</button>
+		  		<button onclick="makeSmall()">Small</button>
+		  		<button onclick="makeNormal()">Normal</button>	
+			</div>
+			<div id="audio-content">
+				<h2>Audio Content</h2>
+				<audio controls>
+					<source src="Rammstein - Engel.mp3" type="audio/mp3">
+				</audio>	
+			</div>
+		</div>
+		<footer>
+			<p>
+	        	Tema 8 - 2020 @Made by <B><span>Dogaru Armand</span></B>@
+	    	</p>		
+		</footer>
 	</div>
-	<div id="audio-content">
-		<h2>Audio Content</h2>
-		<audio controls>
-			<source src="Rammstein - Engel.mp3" type="audio/mp3">
-		</audio>	
-	</div>
-	<footer>
-		<p>
-        	Tema 8 - 2020 @Made by <B><span>Dogaru Armand</span></B>@
-    	</p>		
-	</footer>
 	<script src="custom.js"></script>
 </body>
 </html>
